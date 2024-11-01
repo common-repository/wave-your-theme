@@ -1,0 +1,518 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: little-wp-to-twitter 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-24 19:04+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: liuqiqi <imqiqiboy@gmail.com>\n"
+"Language-Team: qiqiboy <imqiqiboy@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wave-your-theme.php:16
+msgid "Wave Your Theme Options"
+msgstr "换装游戏 设置"
+
+#: wave-your-theme.php:21
+msgid "Some configuration:"
+msgstr "一些设置："
+
+#: wave-your-theme.php:24
+msgid "Custom Location to show? (Strongly not recommended)"
+msgstr "自定义显示位置？(强烈强烈不推荐设置) "
+
+#: wave-your-theme.php:29
+msgid "the id of the node that clicked to show theme-show-label(Strongly not recommended)"
+msgstr "你自己定义的点击后显示主题切换面板的那个链接的id。（强烈不推荐设置）"
+
+#: wave-your-theme.php:31
+msgid "if you have options \"Custom Location to show\", please input the id of your custom link. if you not options \"Custom Location to show\", you can input a custom id to here. You can leave it blank."
+msgstr "如果你设置了“自定义显示位置”，那么请在这里输入你自定义的那个a链接的id值，如果没有设置，那么填在这里的id将会作为自动生成的连接的id。你可以留空这项，不必填写。"
+
+#: wave-your-theme.php:36
+msgid "button title(when mouse over button to show)"
+msgstr "按钮提示文字（鼠标移上去显示的文字）"
+
+#: wave-your-theme.php:41
+msgid "cookie record time(day)"
+msgstr "cookie的有效期（在有效期内会对访客一直显示所切换的主题，单位是天）"
+
+#: wave-your-theme.php:46
+msgid "Theme change succussed to show(day)"
+msgstr "主题切换成功后显示的提示消息"
+
+#: wave-your-theme.php:51
+msgid "Theme change faild to show(day)"
+msgstr "主题切换失败后显示的提示消息"
+
+#: wave-your-theme.php:56
+msgid "javascript, css files location:"
+msgstr "JS、css文件的引入位置："
+
+#: wave-your-theme.php:57
+msgid "Add to "
+msgstr "添加到"
+
+#: wave-your-theme.php:58
+msgid "head"
+msgstr "头部"
+
+#: wave-your-theme.php:59
+msgid "foot"
+msgstr "页脚"
+
+#: wave-your-theme.php:60
+msgid "custom"
+msgstr "自定义"
+
+#: wave-your-theme.php:61
+msgid "(\"custom\" means will not add JS, css files.Need your theme have <b>wp_head()</b> and <b>wp_foot()</b> function.)"
+msgstr "如果如果你选择了自定义文件引入，那么你必须将插件目录中的JS和CSS文件合并到你的JS和CSS文件中，否则是无效的。"
+
+#: wave-your-theme.php:66
+msgid "if you didn't options \"custom location to show\", please choose auto show location:\""
+msgstr "如果你没有设置自定义显示位置，那么你可以在此选择切换按钮在页面的显示位置"
+
+#: wave-your-theme.php:68
+#: wave-your-theme.php:91
+msgid "THE LOACATION:"
+msgstr "显示位置："
+
+#: wave-your-theme.php:69
+msgid "Left-Top"
+msgstr "左上角"
+
+#: wave-your-theme.php:70
+msgid "Right-Top"
+msgstr "右上角"
+
+#: wave-your-theme.php:71
+msgid "Left-Bottom"
+msgstr "左下角"
+
+#: wave-your-theme.php:72
+msgid "Right-Bottom"
+msgstr "右下角"
+
+#: wave-your-theme.php:73
+msgid "if you have options \"custom location to show\", it will not works."
+msgstr "如果你设置了“自定义显示位置”，那么这项选择是无效的。"
+
+#: wave-your-theme.php:76
+msgid "the x offset"
+msgstr "X轴的偏移量"
+
+#: wave-your-theme.php:81
+msgid "the y offset"
+msgstr "Y轴的偏移量"
+
+#: wave-your-theme.php:85
+msgid "You can also custom the button image."
+msgstr "你也可以自定义按钮图标"
+
+#: wave-your-theme.php:89
+msgid "choose these image(default:auto):"
+msgstr "请选择所用图片（默认是auto）"
+
+#: wave-your-theme.php:92
+msgid "auto"
+msgstr "自动"
+
+#: wave-your-theme.php:104
+msgid "You simply plug your own images into the img folder, and then come back here to choose your pictures to add. If the image width and height is not 22, then you also need to fill in the following picture width and height, otherwise the image will not be fully displayed. If you choose a plug-in comes with four pictures, then please fill in the following picture width and height were 50"
+msgstr "你只需将自己的图片放入插件的img文件夹中，然后来后台这里选择你所添加的图片即可。如果图片宽度和高度不是22，那么你还需要在下面填入图片的宽度和高度，否则图片将无法完整显示。如果你选择了插件自带的四张图片，那么请在下面填写图片的宽度和高度分别为50。"
+
+#: wave-your-theme.php:108
+msgid "the image width(default:22)"
+msgstr "图片大小（默认22）"
+
+#: wave-your-theme.php:113
+msgid "the image height(default:22)"
+msgstr "图片高度（默认22）"
+
+#: wave-your-theme.php:118
+msgid "you can also custom the button zIndex(default:auto)"
+msgstr "你也可以自定义按钮图标的z-index值"
+
+#: wave-your-theme.php:124
+msgid "Just Allow admin to switch theme?"
+msgstr "只允许博主使用主题预览切换功能？"
+
+#: wave-your-theme.php:128
+msgid "If is statically linked still set a cookie?"
+msgstr "静态访问时依然保存cookie？"
+
+#: wave-your-theme.php:132
+msgid "Compatible with other plug-ins request(If you use other plug-ins before,please select this, you will not need to modify anyone links of your earlier articles)?(eg: wptheme, theme-preview)"
+msgstr "兼容其他的主题预览插件（如果选择这项，那么使用?wptheme=也可以正常预览插件，这样可以避免你去修改之前文章或者边栏中已经存在的链接）"
+
+#: wave-your-theme.php:136
+msgid "must use key?"
+msgstr "必须使用密钥访问？"
+
+#: wave-your-theme.php:139
+msgid "please input the custom key"
+msgstr "那么设置一个密钥"
+
+#: wave-your-theme.php:146
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: wave-your-theme.php:149
+msgid "Tips:"
+msgstr "小提示："
+
+#: wave-your-theme.php:151
+msgid "Plug-in settings you better leave it alone the first two"
+msgstr "插件设置的前两项请最好不要管它们。"
+
+#: wave-your-theme.php:152
+msgid "If you use IE browser, when you need to be asked to enter key, the browser may block pop-up input window, you'd better inform visitors to this, please allow pop-up window."
+msgstr "如果使用IE浏览器，当需要被要求输入密钥时，浏览器可能会阻止弹出输入窗口，你最好告知访客这一点，请允许弹出窗口。"
+
+#: wave-your-theme.php:153
+msgid "If you enable the plug-in button on the page but not out, then please check the topic z-index setting. If necessary, the background for the button in the plug-in to set up a sufficiently large z-index"
+msgstr "如果你启用插件后页面上却没有输出按钮，那么请检查主题的z-index设置。如果有必要，请在插件后台为按钮设置一个足够大的z-index"
+
+#: wave-your-theme.php:154
+msgid "If you want to customize the button icon, then you only need to prepare good picture into the plugins directory under the img folder, and then in the background you can choose this picture. Needs to be done is where the width and height of the icon fill in your width and height of this icon can be."
+msgstr "如果要自行定义按钮图标，那么你只需要将准备好的图片放入插件目录下的img文件夹中，然后在后台就可以选择这张图片了。还需要做的是，在图标宽度和高度那里填入你的这张图标的宽度和高度即可。"
+
+#: wave-your-theme.php:155
+msgid "If you use the plug-in comes with four picture as a button, then set the image height and width, respectively, 48 are filled"
+msgstr "如果你使用插件自带的四张图片作为按钮，那么请在图片高度和宽度设定中，分别都填入48"
+
+#: wave-your-theme.php:156
+msgid "If you must use a key set, then any topic at the first preview will be asked to enter key"
+msgstr "如果设置了必须使用密钥，那么任何人在第一次预览主题时都会被要求输入密钥"
+
+#: wave-your-theme.php:157
+msgid "After the first key is entered correctly, then set the cookie in the life of all no need to re enter the key"
+msgstr "第一次正确输入密钥后，之后在设定的cookie有效期内均无需再次输入密钥"
+
+#: wave-your-theme.php:158
+msgid "Compatible with other plug-in option is currently only supports plug-compatible wptheme request, if you need compatibility with other plug-in, please contact me."
+msgstr "兼容其他插件选项目前仅支持兼容wptheme插件请求，如果你还需要兼容其他插件，请与我联系。"
+
+#: func/function.php:29
+msgid "Need a key!"
+msgstr "缺少一个密钥！"
+
+#: func/function.php:30
+#: func/function.php:81
+msgid "Error key!"
+msgstr "错误的密钥！"
+
+#: func/function.php:84
+msgid "Error key!."
+msgstr ""
+
+#: func/function.php:96
+msgid "Wave Your Theme"
+msgstr "换装游戏"
+
+#: func/function.php:100
+msgid "preview theme from here"
+msgstr "从这里开始预览主题"
+
+#: func/function.php:100
+msgid "Theme switch was successful, the page will automatically refresh, please wait!"
+msgstr "主题切换成功，页面将会自动刷新，请稍等！"
+
+#: func/function.php:100
+msgid "Oops, failed to change theme."
+msgstr "哦，主题切换失败了。"
+
+#: func/function.php:100
+msgid "Enter the key"
+msgstr "请输入你知道的密钥"
+
+#: func/function.php:100
+msgid "You can't preview the theme!"
+msgstr "你不能预览此主题！"
+
+#~ msgid ""
+#~ "You can put your pictures directly to the img folder, and then to the "
+#~ "options and fill in the following picture width and height of the\""
+#~ msgstr ""
+#~ "你只需将自己的图片放入插件的img文件夹中，然后来后台这里选择你所添加的图片"
+#~ "即可。如果图片宽度和高度不是22，那么你还需要在下面填入图片的宽度和高度，否"
+#~ "则图片将无法完整显示。"
+#~ msgid "WP-RC-Reply-AJAX Options"
+#~ msgstr "WP-RC-Reply-Ajax 设置"
+#~ msgid "only admin can reply?"
+#~ msgstr "只有博主能回复？"
+#~ msgid "Show admin comment?"
+#~ msgstr "显示管理员评论？"
+#~ msgid "Show gravatar?"
+#~ msgstr "显示头像？"
+#~ msgid "Show the navigator?"
+#~ msgstr "显示翻页按钮？"
+#~ msgid "auto wrap when comment length is too short?"
+#~ msgstr "将太短的评论自动换行？"
+#~ msgid "show refresh button at first page?"
+#~ msgstr "在评论列表的首页显示刷新按钮？"
+#~ msgid "close comment-page fliter."
+#~ msgstr "关闭评论分页链接过滤功能？"
+#~ msgid "enable \"ctrl+Enter\" submit shortcuts?"
+#~ msgstr "启用“ctrl+Enter”快捷回复？"
+#~ msgid ""
+#~ "output reply button always(Do not need to enter the single comment mode)?"
+#~ msgstr ""
+#~ "总是输出回复按钮（在最新评论列表也输出回复按钮，无需进入单条评论查看模式）"
+#~ msgid "Show comments number(int, default 8)"
+#~ msgstr "显示的评论数量（整数，默认8）"
+#~ msgid "Avatar size(int), default 32:"
+#~ msgstr "头像尺寸（整数，默认32）"
+#~ msgid "Cut comment length(int), default 30:"
+#~ msgstr "评论截断字符长度（整数，默认30）"
+#~ msgid "reply button name:"
+#~ msgstr "回复按钮名字："
+#~ msgid "auto add @XXX to comment box"
+#~ msgstr "自动添加@回复到评论框"
+#~ msgid "Begin from the "
+#~ msgstr "从第"
+#~ msgid "none"
+#~ msgstr "无"
+#~ msgid "1"
+#~ msgstr "一"
+#~ msgid "2"
+#~ msgstr "二"
+#~ msgid "3"
+#~ msgstr "三"
+#~ msgid "4"
+#~ msgstr "四"
+#~ msgid "5"
+#~ msgstr "五"
+#~ msgid " depth?"
+#~ msgstr "层回复开始"
+#~ msgid "(\"none\" means always do not add \"@XXX\" to comment box.)"
+#~ msgstr "（“无”表示不添加@回复到评论框）"
+#~ msgid "plugin reduce"
+#~ msgstr "插件介绍"
+#~ msgid ""
+#~ "WP-RC-Reply-AJAX plug-in as a display for the latest comments sidebar "
+#~ "plugin developed."
+#~ msgstr ""
+#~ "WP-RC-Reply-AJAX插件为一款针对侧边栏显示最新评论而开发的插件。当然，显示最"
+#~ "新评论并不是它的卖点，因为相关类似的东西已经有了很多，如免插件版的最新评"
+#~ "论、mg12开发的wp-recentcomments插件等。我的这个插件不仅具有wp-"
+#~ "recentcomments的功能，另外还具有在查看单条评论时就可以<span style=\"color:"
+#~ "red;font-weight:bold;\">直接地、即时地回复这条评论</span>。<br>你可以直接"
+#~ "通过< ?php wp_rc_reply_echo(); ? >在需要显示的地方调用，也可以在主题的小工"
+#~ "具设置页面向边栏添加小工具。"
+#~ msgid ""
+#~ "use &lt;?php wp_rc_reply_echo(\"number=&length=&size=&at=\"); ?> to show "
+#~ "the comments list."
+#~ msgstr ""
+#~ "你可以直接在需要显示最新评论的地方调用&lt;?php wp_rc_reply_echo"
+#~ "('number=&length=&size=&at='); ?>。<br>可选参数number是显示数量，length是"
+#~ "截断长度，size是头像大小，at是从第几层开始自动添加@回复。<br>ep:&lt;?php "
+#~ "wp_rc_reply_echo('number=8'); ?> or &lt;?php wp_rc_reply_echo"
+#~ "('number=8&length=25'); ?>"
+#~ msgid "My Blog Plugins page "
+#~ msgstr "我博客插件页面"
+#~ msgid " to get more info."
+#~ msgstr "获取更多信息。"
+#~ msgid ""
+#~ "The post you are trying to comment on does not currently exist in the "
+#~ "database."
+#~ msgstr "您评论的日志或页面不存在。"
+#~ msgid "Sorry, comments are closed for this item."
+#~ msgstr "对不起，评论已关闭。"
+#~ msgid "The post you are trying to comment on has not been published."
+#~ msgstr "你评论的日志尚未发表。"
+#~ msgid "Sorry, you must be logged in to post a comment."
+#~ msgstr "对不起，你必须登陆才能发表评论。"
+#~ msgid "Error: please fill the required fields (name, email)."
+#~ msgstr "错误：请填写必要的内容（姓名和邮箱）。"
+#~ msgid "Error: please enter a valid email address."
+#~ msgstr "错误：请填写一个正确的邮件地址"
+#~ msgid "Error: please type a comment."
+#~ msgstr "错误：请输入评论内容"
+#~ msgid ""
+#~ "Duplicate comment detected; it looks as though you&#8217;ve already said "
+#~ "that!"
+#~ msgstr "貌似你已经发表过这条评论了。"
+#~ msgid "You are posting comments too quickly.  Slow down."
+#~ msgstr "你评论太快了，歇会儿吧"
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "你的评论正在等待审核。"
+#~ msgid " has received your reply.<br>And now you can "
+#~ msgstr "已经收到了您的回复。<br>现在你可以"
+#~ msgid "View New Reply"
+#~ msgstr "查看新评论"
+#~ msgid " or Go Back."
+#~ msgstr "或者返回"
+#~ msgid "You have already reply to this comment."
+#~ msgstr "您已经回复过这条评论了！"
+#~ msgid "is submiting, please wait..."
+#~ msgstr "正在提交，请稍等..."
+#~ msgid "ERROR: Please input your name!"
+#~ msgstr "错误：请输入你的姓名！"
+#~ msgid "ERROR: Please input a right email!"
+#~ msgstr "错误：请输入一个正确的email！"
+#~ msgid "ERROR: Please input a comment!"
+#~ msgstr "错误：请输入评论内容！"
+#~ msgid "submit succussed! Thank you."
+#~ msgstr "提交成功！感谢您的评论！"
+#~ msgid "Welcome back, "
+#~ msgstr "欢迎回来，"
+#~ msgid "change "
+#~ msgstr "更改 "
+#~ msgid "cancle submit"
+#~ msgstr "取消回复"
+#~ msgid "login in as "
+#~ msgstr "登录为 "
+#~ msgid "@"
+#~ msgstr "@"
+#~ msgid "&laquo; Newest"
+#~ msgstr "&laquo; 第一页"
+#~ msgid "&laquo; Newer"
+#~ msgstr "&laquo; 上一页"
+#~ msgid "&laquo; Refresh &raquo;"
+#~ msgstr "&laquo; 刷新 &raquo;"
+#~ msgid "Older &raquo;"
+#~ msgstr "下一页 &raquo;"
+#~ msgid "Reply"
+#~ msgstr "回复"
+#~ msgid "&laquo; Back"
+#~ msgstr "&laquo; 返回"
+#~ msgid "wp_rc_reply"
+#~ msgstr "设置边栏回复选项"
+#~ msgid "show recent comments and reply anyone @ sidebar widget."
+#~ msgstr "显示最新评论以及在边栏回复"
+#~ msgid "WP-RC-Reply"
+#~ msgstr "边栏回复小工具"
+#~ msgid "recent comments"
+#~ msgstr "最新评论"
+#~ msgid "widget title: "
+#~ msgstr "小工具标题"
+#~ msgid " "
+#~ msgstr " "
+
+#, fuzzy
+#~ msgid ""
+#~ "WP-RC-Reply-AJAX plug-in as a display for the latest comments sidebar "
+#~ "plugin developed. Of course, show the latest comment was not its selling "
+#~ "point, as relevant have been many similar things, such as the free plug-"
+#~ "in version of the latest comments, mg12 development wp-recentcomments "
+#~ "plug-ins, etc.. This plug-in not only my wp-recentcomments function also "
+#~ "has in view a single comment can <span style=\\\"color:red;font-weight:"
+#~ "bold;\\\"> directly, in real time Reply to this comment </ span>. <br>  "
+#~ "you directly through the <? php wp_rc_reply_echo;?> the need to display "
+#~ "the local call, you can also set the page theme gadget add gadget to the "
+#~ "Sidebar."
+#~ msgstr ""
+#~ "WP-RC-Reply-AJAX插件为一款针对侧边栏显示最新评论而开发的插件。当然，显示最"
+#~ "新评论并不是它的卖点，因为相关类似的东西已经有了很多，如免插件版的最新评"
+#~ "论、mg12开发的wp-recentcomments插件等。我的这个插件不仅具有wp-"
+#~ "recentcomments的功能，另外还具有在查看单条评论时就可以<span style=\"color:"
+#~ "red;font-weight:bold;\">直接地、即时地回复这条评论</span>。<br>你可以直接"
+#~ "通过<?php wp_rc_reply_echo; ?>在需要显示的地方调用，也可以在主题的小工具设"
+#~ "置页面向边栏添加小工具。"
+#~ msgid "eeee"
+#~ msgstr ""
+#~ "WP-RC-Reply-AJAX插件为一款针对侧边栏显示最新评论而开发的插件。当然，显示最"
+#~ "新评论并不是它的卖点，因为相关类似的东西已经有了很多，如免插件版的最新评"
+#~ "论、mg12开发的wp-recentcomments插件等。我的这个插件不仅具有wp-"
+#~ "recentcomments的功能，另外还具有在查看单条评论时就可以<span style=\"color:"
+#~ "red;font-weight:bold;\">直接地、即时地回复这条评论</span>。<br>你可以直接"
+#~ "通过<?php wp_rc_reply_echo; ?>在需要显示的地方调用，也可以在主题的小工具设"
+#~ "置页面向边栏添加小工具。"
+#~ msgid "www"
+#~ msgstr ""
+#~ "WP-RC-Reply-AJAX插件为一款针对侧边栏显示最新评论而开发的插件。当然，显示最"
+#~ "新评论并不是它的卖点，因为相关类似的东西已经有了很多，如免插件版的最新评"
+#~ "论、mg12开发的wp-recentcomments插件等。我的这个插件不仅具有wp-"
+#~ "recentcomments的功能，另外还具有在查看单条评论时就可以<span style=\"color:"
+#~ "red;font-weight:bold;\">直接地、即时地回复这条评论</span>。<br>你可以直接"
+#~ "通过<?php wp_rc_reply_echo; ?>在需要显示的地方调用，也可以在主题的小工具设"
+#~ "置页面向边栏添加小工具。"
+#~ msgid "wp_rc_replyeee"
+#~ msgstr ""
+#~ "WP-RC-Reply-AJAX插件为一款针对侧边栏显示最新评论而开发的插件。当然，显示最"
+#~ "新评论并不是它的卖点，因为相关类似的东西已经有了很多，如免插件版的最新评"
+#~ "论、mg12开发的wp-recentcomments插件等。我的这个插件不仅具有wp-"
+#~ "recentcomments的功能，另外还具有在查看单条评论时就可以<span style=\"color:"
+#~ "red;font-weight:bold;\">直接地、即时地回复这条评论</span>。<br>你可以直接"
+#~ "通过<?php wp_rc_reply_echo; ?>在需要显示的地方调用，也可以在主题的小工具设"
+#~ "置页面向边栏添加小工具。"
+#~ msgid "set comments length be cuted"
+#~ msgstr "设置评论的截断长度"
+#~ msgid "Little-wp-to-twitter Options"
+#~ msgstr "Little-wp-to-twitter 设置"
+#~ msgid "Enable little wp to twitter?"
+#~ msgstr "启用同步到twitter？"
+#~ msgid "Enable little wp to twitter."
+#~ msgstr "启用Little-wp-to-twitter插件。"
+#~ msgid "Enable tags to twitter."
+#~ msgstr "同步日志标签到微博。"
+#~ msgid "Enable wp to sina."
+#~ msgstr "启用同步到新浪微博。"
+#~ msgid "Twitter ID and PASSWORD"
+#~ msgstr "twitter用户名和密码"
+#~ msgid "Enter your Twitter username and password."
+#~ msgstr "请输入你的twitter用户名和密码。"
+#~ msgid "Twitter Username"
+#~ msgstr "twitter用户名"
+#~ msgid "Twitter Password"
+#~ msgstr "twitter密码"
+#~ msgid "Enter your sina username and password."
+#~ msgstr "请输入你的新浪用户名和密码"
+#~ msgid "Sina Username"
+#~ msgstr "新浪通行证用户名"
+#~ msgid "Sina Password"
+#~ msgstr "新浪通行证密码"
+#~ msgid "Custom prefix"
+#~ msgstr "自定义消息前缀"
+#~ msgid "Prefix for a new post:"
+#~ msgstr "发表一篇新日志时的消息前缀："
+#~ msgid "Prefix for updated a post:"
+#~ msgstr "更新日志时的消息前缀："
+#~ msgid "The time leave the first publish"
+#~ msgstr "缓推时间（单位：秒）："
+#~ msgid "input the number(seconds):"
+#~ msgstr "请输入数字（单位：秒）："
+#~ msgid "example: 3600"
+#~ msgstr "例如：3600"
+#~ msgid "Custom your shorten url api"
+#~ msgstr "自定义短网址服务接口api："
+#~ msgid "input urlShorten-service api:"
+#~ msgstr "请输入短网址服务api"
+#~ msgid "example: http://example.com/api.php?url="
+#~ msgstr "例如：http://example.com/api.php?url="
+#~ msgid "Custom twitter proxy"
+#~ msgstr "自定义twitter代理"
+#~ msgid "use a proxy?(If your host put in China)."
+#~ msgstr "使用代理？（国内主机用户必须启用，国外主机用户不推荐。）"
+#~ msgid "you can also use your twitter proxy:"
+#~ msgstr "你也可以使用你自己的twitter代理："
+#~ msgid "example: http://nest.onedd.net/api/statuses/update.xml"
+#~ msgstr "例如：http://nest.onedd.net/api/statuses/update.xml"
+#~ msgid "little-wp-to-twitter"
+#~ msgstr "同步到twitter"
+#~ msgid "little-wp-to-twitter username and password"
+#~ msgstr "little-wp-to-twitter 的用户名和密码。"
+#~ msgid "Please go to "
+#~ msgstr "请到"
+#~ msgid " to enable the options."
+#~ msgstr " 启用设置。"
+#~ msgid "Please enter your sina username and password."
+#~ msgstr "请输入你的新浪通行证用户名和密码。"
+#~ msgid "Tweet this post to Twitter?"
+#~ msgstr "同步到twitter？"
+#~ msgid "Yes"
+#~ msgstr "是"
+#~ msgid "No"
+#~ msgstr "否"
+#~ msgid "You can add this after the tweet."
+#~ msgstr "你可以添加以下内容到消息后面。"
+

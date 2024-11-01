@@ -1,0 +1,75 @@
+#WYT-theme{
+background:url(../img/icons.png) 0 -38px no-repeat;
+height:22px;
+width:22px;
+display:block;
+position:fixed;
+}
+#WYT_themepanel{
+background:#fff;
+position:fixed;
+text-align:left;
+border:1px solid #aaa;
+-webkit-border-radius:3px;
+-webkit-box-shadow:3px 3px 5px #666;
+-moz-border-radius:3px;
+-moz-box-shadow:3px 3px 5px #666;
+border-radius:3px;
+box-shadow:3px 3px 5px #666;
+z-index:500;
+}
+#WYT_themepanel li{
+height:18px;
+line-height:18px;
+}
+#WYT_themepanel ol{
+height:100%;
+overflow:hidden;
+margin:0;
+padding:0 0 0 20px;
+color:#888;
+margin:20px 10px 10px 10px;
+}
+#WYT_themepanel ol a{
+color:#333;
+}
+#WYT_themepanel ol a.active{
+padding-right:18px;
+background:url(../img/loading.gif) right no-repeat ;
+}
+#WYT_themepanel .WYT_arrow{
+position:absolute;
+left:5px;
+top:-13px;
+color:#FFFFFF;
+display:block;
+height:13px;
+position:absolute;
+width:35px;
+background:url(../img/icons.png) no-repeat ;
+z-index:550;
+}
+#WYT_themepanel.right .WYT_arrow{
+right:5px;
+left:auto;
+}
+#WYT_themepanel.bottom .WYT_arrow{
+bottom:-13px;
+top:auto;
+background-position:0 -18px;
+}
+.WYT_closethemepanel{
+position:absolute;
+right:3px;
+top:3px;
+height:12px;
+width:12px;
+}
+.WYT_closethemepanel a{
+color:#888;
+display:block;
+}
+.WYT_closethemepanel a:hover{
+color:#000;
+text-decoration:none;
+}
